@@ -3,7 +3,7 @@ version: 2.1
 jobs:
   build:
     docker:
-      - image:cimg/node:19.8.1
+      - image: cimg/node:19.8.1
     working_directory: ~/app
     environment:
       MY_VAR: "my-values"
